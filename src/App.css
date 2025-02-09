@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background: linear-gradient(45deg, #e1e1e1, #d4d4d4, #bfbdbd, #abaaaa, #989898);
+  background-size: 400% 400%;
+  width: 100vw;
+  height: max-content;
+  font-family:  'Anton SC';
+  animation: gradientBackground 15s ease infinite;
+  position: absolute;
+}
+
+button {
+  background: #999999;
+}
